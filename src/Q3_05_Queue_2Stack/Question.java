@@ -11,7 +11,8 @@ public class Question {
 	
 	/*
 	 * solution: 两个栈，一个栈执行push，另一个栈执行peek和pop操作
-	 *          当后一个栈中元素为空时，一次导入前一个栈元素
+	 *          当后一个栈中元素为空时，一次性导入前一个栈元素
+	 *          可达到延迟元素移动作用，实现效率，类似于动态分配数组！
 	 */
 	public static class Queue<T> {
 		Stack<T> oldStack;
