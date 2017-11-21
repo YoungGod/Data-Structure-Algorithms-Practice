@@ -1,8 +1,5 @@
 package Q7_Pow_xn;
 
-import javax.print.attribute.standard.RequestingUserName;
-import javax.xml.transform.Templates;
-
 /**
  * 问题：计算X^n，x，n均为整数。要求时间复杂度O(logn)。
  * @author Young
